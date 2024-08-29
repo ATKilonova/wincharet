@@ -1,3 +1,6 @@
+html {
+  scroll-behavior:smooth
+}
 body {
   color: #120f2a;
   background-image: url('');
@@ -8,7 +11,7 @@ body {
 }
 h1 {
   text-align: center;
-  background-color: #eceaea;
+  background-color: #ffffff;
 }
 h3 {
   line-height: 100%;
@@ -19,20 +22,20 @@ h3 {
   padding-bottom: 5px;
 }
 nav {
-      display: flex;
-      justify-content: center;
-      background-color: #333;
-    }
-    nav a {
-      color: white;
-      padding: 4px 20px;
-      text-decoration: none;
-      text-align: center;
-    }
-    nav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+nav a {
+  color: white;
+  padding: 4px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 a:link {
   text-decoration: none;
 }
@@ -56,50 +59,50 @@ img {
   width: 100%;
 }
 div.img {
-    border: 1px solid #ccc;
+  border: 1px solid #ccc;
 }
 
 div.img:hover {
-    border: 1px solid #2f3237;
+  border: 1px solid #2f3237;
 }
 
 div.img img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 div.desc {
-    padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
 }
 
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
 }
 
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 iframe {
   width: 100%;
